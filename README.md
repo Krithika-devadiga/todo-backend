@@ -60,3 +60,11 @@ node server.js
 You should see:
 MongoDB Connected
 Server running successfully on port 5000
+
+📡 API Endpoints
+| Method | Endpoint         | Description         |
+| ------ | ---------------- | ------------------- |
+| GET    | `/api/todos`     | Get all todo items  |
+| POST   | `/api/todos`     | Create a new todo   |
+| PUT    | `/api/todos/:id` | Update a todo by ID |
+| DELETE | `/api/todos/:id` | Delete a todo by ID |
